@@ -1,0 +1,31 @@
+:root {
+  --color-light: #fff2f8;
+  --color-cyan: #00e5ff;
+  --color-pink: #ff58a2;
+  --color-dark: #680037;
+  --color-darkest: #290013;
+}
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap");
+
+body {
+  font-family: "Nunito", sans-serif;
+  background-color: var(--color-dark);
+}
+
+.btn-big {
+  width: 7em;
+  height: 1.5em;
+  border: 0;
+  border-radius: 8px;
+  background-color: var(--color-pink);
+  font-weight: bold;
+  color: var(--color-light);
+  font-size: 1.25em;
+  margin: 3px;
+}
+
+.btn-big:hover {
+  background-color: var(--color-dark);
+  cursor: pointer;
+  box-shadow: 0 0 5px var(--color-light);
+}

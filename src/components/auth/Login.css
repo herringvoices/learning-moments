@@ -1,0 +1,41 @@
+.auth-container {
+  background-color: var(--color-darkest);
+  font-family: "Nunito", sans-serif;
+  margin: 3rem 15rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  color: var(--color-light);
+}
+
+h2 {
+  color: var(--color-pink);
+}
+
+.header {
+  font-size: 2rem;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.auth-form-input {
+  padding: 0.25rem;
+  border: 0;
+  border-radius: 3px;
+}
+
+.register-link {
+  text-align: center;
+  color: var(--color-pink);
+}
+
+.register-link:hover {
+  color: var(--color-cyan);
+}
+
+.auth-fieldset {
+  margin: 0.25rem 0rem;
+}

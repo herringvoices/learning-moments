@@ -1,0 +1,96 @@
+.page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.post-details__container {
+  padding: 10px 16px;
+  margin: 20px;
+  border: 0;
+  border-radius: 8px;
+  background-color: var(--color-darkest);
+  color: var(--color-light);
+  width: 70%;
+  font-family: "Nunito", sans-serif;
+}
+
+.post-details__header {
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+
+.post-details__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.post-details-body {
+  background-color: var(--color-light);
+  color: var(--color-darkest);
+  border-radius: 1em;
+  padding: 1.5em;
+  margin: 1em;
+  line-height: 1.5;
+}
+.post-details-author {
+  color: var(--color-cyan);
+  margin: 0 5px;
+}
+
+.post-details-date {
+  margin: 0 5px;
+  color: var(--color-pink);
+}
+
+.post-details-details {
+  margin-bottom: 15px;
+}
+
+.post-details__title {
+  font-size: 1.2em;
+  text-decoration: none;
+  color: var(--color-pink);
+}
+
+.post-details-topic {
+  font-size: 12px;
+}
+
+.post-details__likes {
+  display: flex;
+  align-items: center;
+  background-color: var(--color-light);
+  border-radius: 1em;
+  padding: 0.5em;
+}
+
+.post-details__like-button {
+  border: none;
+  background: transparent;
+  font-size: 1.5em;
+  cursor: pointer;
+  color: var(--color-pink);
+}
+
+.post-details__like-button:hover {
+  color: var(--color-cyan);
+}
+
+.post-details__like-count {
+  margin-left: 8px;
+  font-size: 1em;
+  color: var(--color-dark);
+}
+
+.new-post__body {
+  width: 90%;
+  height: 250px;
+  background-color: var(--color-light);
+  font-family: "Nunito", sans-serif;
+  padding: 1em;
+  border-radius: 5px;
+  border: 0;
+}

@@ -1,0 +1,93 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Nick Homoelle",
+      "email": "anhomily@email.com",
+      "cohort": "73"
+    },
+    {
+      "id": 2,
+      "email": "example@example.com",
+      "fullName": "Example",
+      "cohort": 696
+    },
+    {
+      "email": "coolguy@example.com",
+      "fullName": "Coolguy",
+      "cohort": 8000,
+      "id": 3
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "I Learned CSS by Doing Chores",
+      "body": "When I first met the old man, I was desperate. I'd been staring at a computer screen for days, wrestling with code that wouldn't obey my will. My CSS was a tangled mess, every div refusing to stay in its box, like rebellious children ignoring a parent's pleas. Flexbox? More like “Fartbox.” Grid? More like...uhhh...\"fart?\" Anyway, just when I thought I'd quit, there he was.\n\n“Teach me CSS?” I asked.\n\nThe old man looked up from his cup of tea, gave me a slow nod, and said, “Sure.”\n\nRelief washed over me, imagining long hours of coding wisdom passed down from a master. But instead of the next steps involving a sleek IDE or CSS framework, the old man handed me a broom.\n\n“What am I supposed to do with this?” I asked, staring at the wooden relic.\n\n“You sweep the floor,” he said plainly, as if this was the most logical thing in the world.\n\nI waited for the punchline. It didn't come.\n\nWas this some kind of joke? But no, the old man was serious. “You want to learn CSS, yes?” he asked. “Then sweep.”\n\nSo I swept. I swept floors, I scrubbed tables, I wiped windows—all the while thinking, This is a colossal waste of time. But every time I opened my mouth to complain, the old man would give me that calm, unbothered look, and I'd keep sweeping.\n\nAfter what felt like days of this, I finally cracked. “I came here to learn CSS, not to do housework!”\n\nThe old man raised an eyebrow. “What did you learn from scrubbing the table?”\n\n“That you should hire a cleaner?”\n\n“No,” he said, shaking his head. “You learned how to focus on detail. Clean edges. How to get rid of the smudges. That's CSS.”\n\nI blinked. \"How is that CSS?\"\n\n“CSS is precision,” he explained. “It's about the small things. Like making sure your elements don't overlap, your padding is even, and your margins don't explode. Every smudge you missed on the table is like a misaligned div. It's ugly. It bothers people. And trust me, they notice.”\n\nSuddenly, the floor sweeping wasn't about cleanliness—it was about layout. The straight, even lines. The consistency. The rhythm of motion, which he said was like building a grid system. I couldn't believe it, but the more I scrubbed, the more sense it made. Every task became a metaphor for something in CSS. By the time I wiped down the final window, I realized that this man was teaching me the most basic principle of styling—everything had to be intentional.\n\nIt wasn't until I was arranging boxes in his dusty garage that the light bulb clicked. “This is Flexbox, isn't it?”\n\nThe old man grinned. “Now you see.”\n\nFlexbox had never made sense to me before, but suddenly, there it was. I was stacking boxes in a row, then switching them to a column. I adjusted their space around each other, aligning them to the center of the garage with frightening accuracy. Just like in code, if I missed a box, the entire layout was off.\n\n“Centering is hard,” I muttered, thinking of all the times I tried to center a div and failed.\n\nThe old man simply nodded. “Yes. Yes, it is.”\n\nBy the time I graduated to sorting garden tools (a perfect lesson in Grid, naturally), I began to see everything differently. The entire house was a web page, and I was laying it out with my bare hands. What once felt like menial chores turned into lessons in visual hierarchy, in the balance of negative space, and the elusive zen of responsive design.\n\nEventually, I sat down in front of a computer again, with a renewed appreciation for the art of CSS. My code became cleaner, more purposeful. And when I opened the browser, my divs were obedient, my grids immaculate. For the first time, centering something didn't break my spirit.\n\n“Why didn't you just tell me this stuff from the beginning?” I asked, genuinely curious.\n\nThe old man smiled. “Because you wouldn't have listened. You wanted the magic solution, but the truth is, good CSS takes patience. It takes seeing the world in a different way.”\n\nHe wasn't wrong. I had wanted shortcuts, a way to hack my way through styling with quick fixes. But there are no shortcuts in good design, just like there aren't any shortcuts to a well-swept floor.\n\nSo now, when people ask me how I learned CSS, I tell them: An old man taught me by making me do chores. And no, it's not the fastest way to learn, but it's definitely the most satisfying.\n\nAs for the old man, I still don't know his name. He disappeared as mysteriously as he came. But every time I see a perfectly aligned website or an elegantly responsive layout, I think of him, sipping his tea, waiting for the next student to ask for help.\n\nAnd maybe—just maybe—handing them a broom.",
+      "date": "2024-10-25T12:34:56.789Z",
+      "userId": 1,
+      "topicId": 2
+    },
+    {
+      "id": 2,
+      "title": "How .filter() Changed My Life",
+      "body": "If you had asked me a few years ago what the greatest JavaScript method was, I would’ve shrugged and said something about console.log()—the most reliable way to see if my code was doing anything remotely productive. But now, having grown wiser through trial and error (mostly error), I’ve discovered that there is no more powerful tool than .filter()—and it didn’t just change the way I code; it changed my life.\n\nI know, it sounds dramatic, but let me explain.\n\nIt all started when I first grasped the beauty of .filter() in a JavaScript lesson. Imagine you have a big, messy array filled with everything: good values, bad values, duplicates, numbers, strings—utter chaos. And then, with a simple call to .filter(), I could sift through that chaos and only keep what mattered. It was like magic.\n\nNaturally, being the over-thinker that I am, I started applying .filter() everywhere. Not just in my code, but in my actual life.\n\nFiltering My Friends\nMy friends list was, much like an unfiltered array, full of everything. From people I truly cared about to that guy from high school who still sent me cryptic memes at 2 a.m. I wasn’t even sure how half of them got there. So I thought, what if I apply a filter here?\n\nFirst, I created a callback function for my life-friends array. If a person was uplifting, inspiring, or fun to be around, they passed the filter. If they drained my energy like a poorly optimized website, they didn’t make the cut. The result? A smaller but higher-quality group of people. No more doom-scrolling through a sea of negativity on my social feeds. Just genuine, meaningful connections that made me feel... human.\n\nFiltering My Dates\nDating was another area where .filter() became a lifesaver. I used to just swipe right, swipe left, never really thinking about what I was looking for. It was like adding every variable to a function and hoping it would work. Spoiler alert: it didn’t.\n\nSo, I applied a stricter filter to my dating life. Instead of just swiping, I set conditions. Humor? Required. Compassion? Essential. Drama? Absolutely not. In no time, the endless stream of so-so dates was reduced to a few quality matches. And while I'm still a work in progress (aren’t we all?), at least I’m no longer debugging emotional code from unnecessary relationship drama.\n\nFiltering My Time\nEven my time got the .filter() treatment. I realized that I was spending hours on things that didn’t matter, like binge-watching shows I wasn’t even invested in or arguing with strangers online. So, I wrote a mental function: if it doesn’t bring me joy, teach me something new, or move me toward my goals, it gets filtered out.\n\nThis might sound ruthless, but it’s effective. My days are now filled with activities that either recharge me or make me a better version of myself, and I’m not wasting precious bandwidth on things that don’t add value.\n\nFiltering My Closet\nThen, because I couldn’t stop, I even .filter()ed my wardrobe. I used to have a ton of clothes I never wore. Things I kept because, well, maybe one day I’ll need this shirt with a pineapple on it. Guess what? I never needed it. So, I did a closet.filter(item => item sparks joy) (shout-out to Marie Kondo for the inspiration), and now, I’m left with only things I actually like and wear. Turns out, less is more. Who knew?\n\nFiltering My Mindset\nPerhaps the most impactful .filter() I applied was to my mindset. We all have a mental array filled with doubts, insecurities, and negative thoughts. But what if I filtered those? What if, every time my mind produced something like, You're not good enough, I could .filter() it out?\n\nIt wasn’t easy at first. Negative thoughts can be persistent little bugs. But with practice, I started catching them. I set up mental filters: if the thought wasn’t helpful, kind, or constructive, I filtered it right out. And let me tell you, living with fewer mental bugs makes for a much smoother day.\n\nThe Result\nAt the end of all this filtering, I found that my life was cleaner, simpler, and far more efficient. I had more time, more energy, and better relationships. My days were no longer cluttered with things that didn’t serve me. .filter() didn’t just help me write better code—it helped me write a better life.\n\nSo, to all of you struggling to clean up the mess in your arrays—whether in code or in life—remember that sometimes, the best solution is as simple as a well-placed .filter(). It might just change everything.",
+      "date": "2024-10-29T14:01:00.342Z",
+      "userId": 2,
+      "topicId": 3
+    },
+    {
+      "id": 3,
+      "title": "How to be Cool",
+      "body": "Fonts that are legible and elegant, goes a long way. The goal is that no one notices how perfect the typography is; they just feel it.\n\n3. Colors: The Hidden Language of Intent\nIt’s easy to default to trendy color schemes, but coolness demands a bit more restraint. Pick a palette that reinforces the purpose of your design, whether it’s calming blues or dynamic reds. Planning colors that support the user’s emotional journey is sprezzatura at its finest—they shouldn’t be too aware of the colors, but they should feel the mood.\n\n4. Effortless Navigation Isn’t Accidental\nA cool website flows naturally, guiding users without them realizing it. To achieve this, build out intuitive pathways in your planning stage. If users find what they’re looking for without searching or backtracking, it wasn’t luck. That’s the essence of cool design: guiding them seamlessly with structure that feels invisible.\n\n5. Microinteractions with a Purpose\nThe best websites feature microinteractions—those tiny, subtle animations or responses that feel instinctive. But here’s the trick: they have to make sense. Too many, and it’s noise. None, and it’s static. Cool design finds that sweet spot, where interactions add to the flow but don’t shout for attention.\n\n6. Planning for Responsiveness Without a Fuss\nA cool design isn’t just about how it looks on a desktop—it’s about looking good everywhere. Responsive design should look effortless but requires careful thought at every breakpoint. Design each aspect to adapt smoothly, so users on mobile, tablet, or desktop feel like it was made just for them.\n\n7. Test (But Don’t Let Them See You Sweat)\nTesting and revisions are essential to sprezzatura. Every element, from loading speeds to user paths, has to be checked and rechecked. But here’s the trick: never let it show. Users should feel like the site simply works without them considering the countless hours that went into making it seamless.\n\nThe Secret Sauce of Cool: Planning in the Shadows\nIn the end, the heart of being cool is in the unseen work. Sprezzatura in web design means crafting with such intentionality and care that the planning fades away. Your users don’t see your wireframes, style guides, or usability tests—they just experience the ease, the flow, the cool.\n\nSo next time you’re building a site, aim for that effortless coolness. Hide your planning in plain sight, like a courtier mastering his craft. It’s in this hidden, meticulous preparation that real coolness resides.",
+      "date": "2024-10-30T14:07:22.703Z",
+      "userId": 3,
+      "topicId": 8
+    }
+  ],
+  "topics": [
+    {
+      "id": 1,
+      "name": "HTML"
+    },
+    {
+      "id": 2,
+      "name": "CSS"
+    },
+    {
+      "id": 3,
+      "name": "JavaScript"
+    },
+    {
+      "id": 4,
+      "name": "React"
+    },
+    {
+      "id": 5,
+      "name": "Wireframing"
+    },
+    {
+      "id": 6,
+      "name": "Algorithmic Thinking"
+    },
+    {
+      "id": 7,
+      "name": "GitHub"
+    },
+    {
+      "id": 8,
+      "name": "Planning and Organization"
+    },
+    {
+      "id": 9,
+      "name": "Miscellaneous"
+    }
+  ],
+  "postLikes": [
+    {
+      "userId": 3,
+      "postId": 2,
+      "id": 2
+    }
+  ]
+}

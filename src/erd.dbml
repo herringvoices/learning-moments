@@ -1,0 +1,27 @@
+Table users {
+  id int [pk, increment] // Primary key with auto-increment
+  name varchar
+  email varchar
+  password varchar
+  cohort varchar
+}
+
+Table posts {
+  id int [pk, increment] // Primary key with auto-increment
+  title varchar
+  body text
+  date datetime
+  userId int [ref: > users.id] // Foreign key referencing users
+  topicId int [ref: > topics.id] // Foreign key referencing topics
+}
+
+Table topics {
+  id int [pk, increment] // Primary key with auto-increment
+  name varchar
+}
+
+Table postLikes {
+  id int [pk, increment] // Primary key with auto-increment
+  userId int [ref: > users.id] // Foreign key referencing users
+  postId int [ref: > posts.id] // Foreign key referencing posts
+}
